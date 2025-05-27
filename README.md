@@ -6,10 +6,10 @@ Este repositorio contiene un script en Python que permite **extraer información
 
 ## 🚀 ¿Qué hace este proyecto?
 
-🔍 Analiza automáticamente cientos de CVs PDF.  
-🧠 Identifica y extrae las secciones más relevantes del contenido textual.  
-📊 Organiza los datos en un archivo `.xlsx` limpio y exportable.  
-🗂️ Permite un análisis fácil y sistemático de postulantes.
+-  Analiza automáticamente cientos de CVs PDF.  
+-  Identifica y extrae las secciones más relevantes del contenido textual.  
+-  Organiza los datos en un archivo `.xlsx` limpio y exportable.  
+-  Permite realizar un análisis preliminar de los y las postulantes. 
 
 ---
 
@@ -30,10 +30,7 @@ El script identifica las siguientes secciones por cada CV:
 | `Archivo`         | Nombre del archivo PDF original                              |
 
 ---
+## ✅ Consideraciones
+Puedes hacer modificaciones al código agregando más palabras clave para identificar otras secciones de interés o adaptarlo a un formato de CV específico.
 
-## 🧩 Requisitos
-
-Instala las dependencias necesarias:
-
-```bash
-pip install pymupdf pandas openpyxl
+Esto se hace editando las listas de palabras dentro de la función extract_section() para capturar más sinónimos, mayúsculas, variantes o estilos personales de los candidatos.
