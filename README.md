@@ -19,7 +19,7 @@ El script identifica las siguientes secciones por cada CV:
 
 | Campo              | Descripción                                                  |
 |-------------------|--------------------------------------------------------------|
-| `Nombre`          | Primera línea del CV (supuesto nombre del candidato)         |
+| `Nombre`          | Primera línea del CV     
 | `Correo`          | Email (formato estándar `nombre@dominio.com`)                |
 | `Teléfono`        | Número telefónico local o internacional                      |
 | `LinkedIn`        | Enlace a perfil de LinkedIn (si está presente)               |
@@ -33,4 +33,4 @@ El script identifica las siguientes secciones por cada CV:
 ## ✅ Consideraciones
 Puedes hacer modificaciones al código agregando más palabras clave para identificar otras secciones de interés o adaptarlo a un formato de CV específico.
 
-Esto se hace editando las listas de palabras dentro de la función extract_section() para capturar más sinónimos, mayúsculas, variantes o estilos personales de los candidatos.
+Esto se hace editando las listas de palabras dentro de la función `extract_section()` para capturar más sinónimos, mayúsculas, variantes o estilos personales de los candidatos.
